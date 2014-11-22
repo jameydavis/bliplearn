@@ -38,7 +38,7 @@ main {
   background-color: #eee;
   padding-bottom: 80px;
   width: 100%;
-  margin-top: 51px; // accommodate the navbar
+  margin-top: 71px; // accommodate the navbar
   }
 section {
   @extend .row;
@@ -79,4 +79,33 @@ section {
   @extend .btn;
   @extend .btn-primary;
   @extend .btn-xs;
+}
+
+// bliplearn styles
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 50px;
+    height: 70px;
+    font-size: 16px;
+    // padding-top: 0;
+}
+.navbar-inverse {
+background-color: #384047;
+}
+body {
+background: #edeff0;
+position: relative;
+bottom: 0;
+left: 0;
+right: 0;
+font-size: 10px;
+line-height: 1;
+overflow: hidden;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-webkit-transition: top 0.5s ease, padding 0.5s ease;
+-moz-transition: top 0.5s ease, padding 0.5s ease;
+-o-transition: top 0.5s ease, padding 0.5s ease;
+transition: top 0.5s ease, padding 0.5s ease;
 }
