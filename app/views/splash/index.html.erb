@@ -43,10 +43,9 @@
         <div class='col-md-2'>
         <div class=''>
         <div class='image_wrapper'>
-                <a href="#"><img alt="Javascript IMG" src="http://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" />
-                </a>
+                <%= link_to courses_path %><img alt="Javascript IMG" src="http://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" />
         </div>
-        <h2><a href="#">Javascript</a></h2>
+        <h2><%= link_to 'Javascript', courses_path %></h2>
         </div>
         </div>
 
@@ -81,7 +80,8 @@
         </div>
         </div>
 
-
+    </div>
+    </div>
   </body>
 </html>
 
