@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <style>
+    h1 {
+         padding-top: 70px;
+         padding-left: 0px;
+    }
+    body {
+        overflow: auto;
+    }
+    </style>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+    <%= favicon_link_tag 'favicon.ico' %>
+  </head>
+
+  <body>
+      <%= render 'layouts/navigation' %>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+
+
+    <div class="container">
+      <div class="page-header">
+        <h1>Tracks</h1>
+        <p class="lead">Your available Tracks</p>
+      </div>
+
+    </div>
+
+<div class='container'>
+<div class='row'>
+        <div class='col-md-3'>
+        <div class=''>
+        <div class='image_wrapper'>
+                <a href="#"><img alt="Javascript IMG" src="http://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" />
+                </a>
+        </div>
+        <h2><a href="#">Javascript</a></h2>
+        </div>
+        </div>
+
+        <div class='col-md-3'>
+        <div class=''>
+        <div class='image_wrapper'>
+                <a href="#"><img alt="HTML IMG" src="http://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" />
+                </a></div>
+        <h2><a href="#">HTML 5</a></h2>
+        </div>
+        </div>
+
+        <div class='col-md-3'>
+        <div class=''>
+        <div class='image_wrapper'>
+                <a href="#"><img alt="PYTHON IMG" src="http://www.odd-e.com/material/public/resources/python/python.png" />
+                </a></div>
+        <h2><a href="#">Python</a></h2>
+        </div>
+        </div>
+        </div>
+
+        <div class='col-md-3'>
+        <div class=''>
+        <div class='image_wrapper'>
+                <a href=""><img alt="Ruby IMG" src="http://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Ruby_on_Rails.svg/791px-Ruby_on_Rails.svg.png">
+                </a></div>
+        <h2><a href="#">Ruby</a></h2>
+        </div>
+        </div>
+
+        <div class='col-md-3'>
+        <div class=''>
+        <div class='image_wrapper'>
+                <a href="#"><img alt="Track IMG" src="" />
+        </a></div>
+                <h2><a href="#">Track</a></h2>
+        </div>
+        </div>
+
+        <div class='col-md-3'>
+        <div class=''>
+        <div class='image_wrapper'>
+                <a href="#"><img alt="Track IMG" src="" />
+                </a></div>
+        <h2><a href="#">Track</a></h2>
+        </div>
+        </div>
+        </div>
+
+
+  </body>
+</html>
